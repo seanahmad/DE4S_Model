@@ -4,7 +4,7 @@ DE4S is a timeseries forecasting model capable of forecasting time-varying seaso
 To run a forecast, required parameters are a dataframe containing the exogenous variable and a date column (df), and exogenous variable name (exog), a date header (date), the initial level (level), level smoothing (alpha), trend (trend), and trend smoothing (beta) parameters. <br><br>
 
 Initialize:<br>
-model = SeasonalSwitchingModel(df, exog, date, level, alpha, trend, beta).
+model = SeasonalSwitchingModel(df, exog, date, level, alpha, trend, beta)
 
 Fit:<br>
 fitted_model = model.fit_seasonal_switching_model()
